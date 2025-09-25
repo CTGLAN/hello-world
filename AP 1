@@ -1,0 +1,19 @@
+int main(void)
+{
+char ch;
+int num;
+float f;
+
+printf("enter a character:")
+scanf("%c",&ch);
+
+printf("enter an integer:");
+scanf("%f",&f);
+
+printf("\nYou entered:\n");
+printf("Character:%c\n",ch);
+printf("Intger:%d\n",num);
+printf("Float:%.2f\n",f);
+
+return 0;
+}
