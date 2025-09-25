@@ -1,13 +1,18 @@
+#inclode <stdio.h>
+
 int main(void)
 {
-char ch;
-int num;
-float f;
+char ch; A
+int num; 42
+float f; 3.14
 
 printf("enter a character:")
-scanf("%c",&ch);
+scanf(" %c",&ch);
 
 printf("enter an integer:");
+scanf("%d",&num);
+
+printf("enter a Float:");
 scanf("%f",&f);
 
 printf("\nYou entered:\n");
